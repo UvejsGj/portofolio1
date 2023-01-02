@@ -1,0 +1,11 @@
+
+.navbar1{
+    justify-content: right;
+    display: flex;
+}
+
+.divnavbar {
+    position: relative; 
+    display: flex;
+    justify-content: flex-end;
+}
