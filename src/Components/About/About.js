@@ -1,18 +1,18 @@
 import "./About.css";
-import boy from "../../Assets/images/uvejsbitmoji.png";
+import aboutmepic from "../../Assets/images/aboutme.png";
 
 const About = () => {
   return (
     <div>
       <div className="aboutmediv">
-        <img className="aboutmeimg" src={boy} />
+        <img className="aboutmeimg" src={aboutmepic} />
       </div>
       <div>
         <p className="aboutmep">
-          Hi, I am Uvejs from Peja. I'm learning React.js <br /> I also know HTML & CSS.
+          Hi, I am Uvejs from Peja. I'm learning React.js <br /> I also know
+          HTML & CSS.
         </p>
       </div>
-     
     </div>
   );
 };

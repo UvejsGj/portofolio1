@@ -1,36 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather+Sans:wght@600&display=swap');
-
-p {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    outline-color: aliceblue;
-}
-
-h1 {
-    font-family: 'Fjalla One', sans-serif;
-    font-family: 'Merriweather Sans', sans-serif;
-}
-
-.aboutmeimg{
-    width: 500px;
-    height: 500px; 
-    position: relative;
-    left: -250px;
-    border-right: 5px solid white;
-    margin-right: 220px;
-    color: white;
-}
-
-.aboutmep{
-    position: absolute;
-    right: 15%;
-    top: 30%;
-    font-size: 30px;
-    color: white;
-}
-
-
 
 .button-36 {
   background-image: linear-gradient(92.88deg, #0b132b 9.16%, #0b132b 43.89%, #0b132b 64.72%);
@@ -52,7 +19,7 @@ h1 {
   -webkit-user-select: none;
   touch-action: manipulation;
   position: relative;
-  left: 280px;
+  left: 400px;
   top: -150px;
   
 }
