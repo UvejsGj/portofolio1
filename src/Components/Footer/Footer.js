@@ -1,13 +1,14 @@
 import "./Footer.css";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs"
 
 const Footer = () => {
   return (
     <div>
       <footer>
-        <a className="name">© Uvejs Gjelaj</a>{" "}
-        <a className="instalogo" href="https://www.instagram.com/uvejs_gjelaj/">
+        <div>
+      <a className="instalogo" href="https://www.instagram.com/uvejs_gjelaj/">
           <BsInstagram />
         </a>
         <a
@@ -16,6 +17,12 @@ const Footer = () => {
         >
           <BsFacebook />
         </a>
+        <a className="twitterlogo" href="https://twitter.com/uvejsgjelaj03">
+          <BsTwitter />
+        </a>
+        </div>
+        <a className="name">© Uvejs Gjelaj</a>{" "}
+        
       </footer>
     </div>
   );

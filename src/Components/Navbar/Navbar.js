@@ -1,13 +1,16 @@
 import Hamburger from "hamburger-react";
 import "./Navbar.css";
+import Drawer from "../Drawer/Drawer";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [showDrawer, setShowDrawer] = useState(false);
   return (
-    <div className="divnavbar">
+    <div className="divnavbar" onClick={() => setShowDrawer((prevState) => !prevState)}>
       <Hamburger />
 
-      <ul className="navbar1"></ul>
     </div>
+      // {showDrawer ? <Drawer /> : null}
   );
 };
 
