@@ -21,7 +21,7 @@ footer {
   align-items: center;
 }
 
-.instalogo {
+.githublogo {
   position: relative;
   justify-content: center;
   align-items: center;
@@ -52,4 +52,11 @@ footer {
 
 .twitterlogo::after {
   outline: none;
+}
+
+.gmail-logo {
+  position: relative;
+  font-size: 30px;
+  top: 10px;
+  color: #551A8B;
 }
