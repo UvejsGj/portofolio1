@@ -60,3 +60,12 @@ footer {
   top: 10px;
   color: #551A8B;
 }
+
+.stackoverflowlogo {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 10px;
+  outline: none;
+}

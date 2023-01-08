@@ -3,6 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
+import { BsStackOverflow } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -11,6 +12,12 @@ const Footer = () => {
         <div>
           <a className="githublogo" href="https://github.com/UvejsGj">
             <BsGithub />
+          </a>
+          <a
+            className="stackoverflowlogo"
+            href="https://stackoverflow.com/users/15934272/uvejs-gjelaj"
+          >
+            <BsStackOverflow />
           </a>
           <a
             className="facebooklogo"
