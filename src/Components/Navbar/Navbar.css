@@ -2,9 +2,11 @@
 
 
 .divnavbar {
-    position: absolute; 
+    position: relative; 
     display: flex;
-    top: 10px;
+    top: -70px;
     right: 10px;
     justify-content: flex-end;
+    z-index: 999;
+    color: #fff;
 }

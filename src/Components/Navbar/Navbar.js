@@ -6,11 +6,14 @@ import { useState } from "react";
 const Navbar = () => {
   const [showDrawer, setShowDrawer] = useState(false);
   return (
+    <div className="nav">
     <div className="divnavbar" onClick={() => setShowDrawer((prevState) => !prevState)}>
-      <Hamburger />
+      <Hamburger color='white' />
 
     </div>
-      // {showDrawer ? <Drawer /> : null}
+    
+       {showDrawer ? <Drawer /> : null}
+       </div>
   );
 };
 

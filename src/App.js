@@ -13,7 +13,6 @@ function App() {
       <About />
       <Footer />
       <Button />
-      {/* <Drawer /> */}
     </div>
   );
 }
