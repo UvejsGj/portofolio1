@@ -1,7 +1,7 @@
 .buttondiv {
   position: relative;
-  left: 10%;  
-  top: -235px;
+  left: 15%;  
+
 }
 
 
@@ -27,6 +27,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   position: relative;
+  top: 20%;
   
 }
 

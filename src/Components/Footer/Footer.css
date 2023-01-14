@@ -37,6 +37,7 @@ footer {
   font-size: 30px;
   margin: 10px;
   outline: none;
+  color: #551A8B;
   align-items: center;
 }
 
@@ -48,6 +49,7 @@ footer {
   margin: 10px;
   outline: none;
   align-items: center;
+  color: #551A8B;
 }
 
 .twitterlogo::after {

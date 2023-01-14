@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
         </div>
         <a className="name">
-          © Uvejs Gjelaj <br /> <SiGmail className="gmail-logo" />{" "}
+          © Uvejs Gjelaj 2023 <br /> <SiGmail className="gmail-logo" />{" "}
           uvejsgjelaj03@gmail.com{" "}
         </a>{" "}
       </footer>

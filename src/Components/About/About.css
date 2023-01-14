@@ -13,8 +13,8 @@ h1 {
 }
 
 .aboutmeimg{
-    width: 750px;
-    height: 500px; 
+    width: 36%;
+    height: 60%; 
     position: relative;
     left: -250px;
     border-right: 5px solid white;
