@@ -4,8 +4,8 @@
 .divnavbar {
     position: relative; 
     display: flex;
-    top: -70px;
     right: 10px;
+    top: 10px;
     justify-content: flex-end;
     z-index: 999;
     color: #fff;
