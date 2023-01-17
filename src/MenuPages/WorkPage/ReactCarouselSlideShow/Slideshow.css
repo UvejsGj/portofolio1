@@ -1,0 +1,10 @@
+.carouselslideshow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    left: 40%;
+    width: 800px;
+    height: 500px;
+}
