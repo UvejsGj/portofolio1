@@ -27,6 +27,7 @@ footer {
   align-items: center;
   font-size: 30px;
   margin: 10px;
+  color: #fff;
   outline: none;
 }
 
@@ -37,7 +38,7 @@ footer {
   font-size: 30px;
   margin: 10px;
   outline: none;
-  color: #551A8B;
+  color: #fff;
   align-items: center;
 }
 
@@ -49,7 +50,7 @@ footer {
   margin: 10px;
   outline: none;
   align-items: center;
-  color: #551A8B;
+  color: #fff;
 }
 
 .twitterlogo::after {
@@ -60,7 +61,7 @@ footer {
   position: relative;
   font-size: 30px;
   top: 10px;
-  color: #551A8B;
+  color: #fff;
 }
 
 .stackoverflowlogo {
@@ -70,5 +71,5 @@ footer {
   font-size: 30px;
   margin: 10px;
   outline: none;
-  color: #551A8B;
+  color: #fff;
 }

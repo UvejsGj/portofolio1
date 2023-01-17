@@ -3,8 +3,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 200px;
-    left: 40%;
-    width: 800px;
-    height: 500px;
+    text-align: center;
+    top: 25%;
+    left: 17%;
+    width: 1314px;
+    height: 634px;
+}
+
+.faceprojects {
+    border: 5px solid #ffffff;
+}
+
+.bbcprojects {
+    border: 5px solid #ffffff;
+}
+
+.askthexs {
+    border: 5px solid #ffffff;
 }

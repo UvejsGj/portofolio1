@@ -18,9 +18,9 @@ h1 {
     position: relative;
     left: -250px;
     top: 100px;
-    border-right: 5px solid white;
+    border-right: 5px solid black;
     margin-right: 220px;
-    color: white;
+    color: black;
 }
 
 .aboutmep{
@@ -28,7 +28,7 @@ h1 {
     right: 15%;
     top: 30%;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 .aboutmepb {

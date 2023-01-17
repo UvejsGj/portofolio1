@@ -7,6 +7,16 @@
     right: 10px;
     top: 10px;
     justify-content: flex-end;
+    z-index: 998;
+    color: #fff;
+}
+
+.divnavbar::after{
+    position: relative; 
+    display: flex;
+    right: 10px;
+    top: 10px;
+    justify-content: flex-end;
     z-index: 999;
     color: #fff;
 }

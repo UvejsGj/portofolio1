@@ -16,13 +16,13 @@ const Slideshow = () => {
         showThumbs={true}
         interval={5000}
       >
-        <div>
+        <div className="faceprojects">
           <img loading="lazy" src={FaceProject} />
         </div>
-        <div>
+        <div className="bbcprojects">
           <img loading="lazy" src={BBCProject} />
         </div>
-        <div>
+        <div className="ashkthex">
           <img loading="lazy" src={AskTheX} />
         </div>
       </Carousel>
