@@ -5,11 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   background-image: url("../src/Assets/images/blue.png");
+   /* background-image: url("../src/Assets/images/blue.png");
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
-   background-size: cover;
+   background-size: cover;  */
+   background-color: rgb(17, 17, 89);
 
    overflow-x: hidden;
 

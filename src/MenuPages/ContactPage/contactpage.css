@@ -1,0 +1,15 @@
+.form {
+    position: relative;
+    /* border: 5px solid white; */
+    width: 500px;
+    height: 500px;
+    outline: none;
+}
+
+input {
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}

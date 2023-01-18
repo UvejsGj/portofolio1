@@ -16,6 +16,10 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
     background-color: #000;
+    background-image: url('./drawerimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Kanit', sans-serif;
@@ -43,7 +47,8 @@
     animation: typing 2s forwards;
     font-size: 2rem;
     width: 0;
-    margin: 20px;
+    top: 20px;
+    margin: 10px;
 }
 
 .drawer-items li:hover {

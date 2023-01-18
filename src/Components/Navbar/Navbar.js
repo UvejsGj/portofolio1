@@ -11,7 +11,7 @@ const Navbar = () => {
         className="divnavbar"
         onClick={() => setShowDrawer((prevState) => !prevState)}
       >
-        <Hamburger color="black" />
+        <Hamburger color="white" />
       </div>
 
       {showDrawer ? <Drawer /> : null}
