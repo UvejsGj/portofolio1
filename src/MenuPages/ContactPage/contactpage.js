@@ -4,15 +4,22 @@ import Navbar from "../../Components/Navbar/Navbar";
 
 const Contact = () => {
     return(
-        <div>
+        <div className="group">
         <Navbar/>
         <Footer/>
-        <form className="form">
-            <input type="text"  />
-            <br></br>
-            <input type="text" />
-            <br></br>
-            <input type="text" /> 
+        <form className="contact-form">
+            <label> Your Name
+            <input className="form-input" type="text"  />
+            </label>
+            <br/>
+            <label> Your Email
+            <input className="form-input" type="text" />
+            </label>
+            <br/>
+            <label> About Your Project
+            <input className="form-input" type="text" /> 
+            </label>
+            <button className="custom-button" > Send </button>
         </form>
         </div>
     )
