@@ -16,7 +16,7 @@
     animation-duration: 1s;
     animation-fill-mode: forwards;
     background-color: #000;
-    background-image: url('./drawerimg.png');
+    /* background-image: url('./drawerimg.png'); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 400px;
