@@ -8,15 +8,15 @@ const Contact = () => {
         <Navbar/>
         <Footer/>
         <form className="contact-form">
-            <label> Your Name
+            <label className="form-input-label"> Your Name
             <input className="form-input" type="text"  />
             </label>
             <br/>
-            <label> Your Email
+            <label className="form-input-label"> Your Email
             <input className="form-input" type="text" />
             </label>
             <br/>
-            <label> About Your Project
+            <label className="form-input-label" > About Your Project
             <input className="form-input" type="text" /> 
             </label>
             <button className="custom-button" > Send </button>
