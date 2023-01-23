@@ -8,6 +8,10 @@ const AboutPage = () => {
       <Footer/>
       <Navbar/>
       <h1> I am Uvejs </h1>
+      <p className="aboutmep">
+          Hi, I am Uvejs from Peja. I'm learning React.js <br /> I also know
+          HTML & CSS.
+        </p>
     </div>
   );
 };

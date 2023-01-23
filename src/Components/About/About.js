@@ -10,8 +10,7 @@ const About = () => {
       </div>
       <div className="aboutmepb">
         <p className="aboutmep">
-          Hi, I am Uvejs from Peja. I'm learning React.js <br /> I also know
-          HTML & CSS.
+          Hi, Welcome to my Portofolio.
         </p>
         
         <Button/>
