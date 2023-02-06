@@ -5,3 +5,30 @@
     font-size: 30px;
     color: white;
 }
+
+.skills {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+}
+
+.skillicons {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
+
+.certificates {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}

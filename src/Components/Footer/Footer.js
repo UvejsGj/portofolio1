@@ -7,7 +7,7 @@ import { BsStackOverflow } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footerdiv">
       <footer>
         <div>
           <a className="githublogo" href="https://github.com/UvejsGj">
