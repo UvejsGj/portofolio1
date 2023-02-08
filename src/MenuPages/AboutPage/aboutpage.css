@@ -13,6 +13,14 @@
     top: 250px;
 }
 
+.skilldiv {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 500px;
+    top: 230px;
+}
+
 .skillicons {
     color: white;
     font-size: 30px;
@@ -25,8 +33,9 @@
     color: white;
     font-size: 30px;
     position: relative;
-    top: 250px;
+    top: 50px;
     font-size: 20px;
+    right: 500px;
 }
 
 h2 {

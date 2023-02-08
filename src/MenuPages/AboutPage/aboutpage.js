@@ -10,43 +10,39 @@ import { DiJavascript } from "react-icons/di";
 const AboutPage = () => {
   return (
     <div>
-      <Footer/>
-      <Navbar/>
+      <Footer />
+      <Navbar />
       <h1> I am Uvejs </h1>
       <p className="aboutmep">
-          Hi, I am Uvejs from Peja. I'm learning React.js <br /> I also know
-          HTML & CSS.
-        </p>
-      
-      <h2 className="skills">
-        My Skills
-        </h2>
-        <br></br>
-        <div className="skillicons">
-        HTML <AiFillHtml5/>
-        <br></br>
-        CSS <FaCss3Alt/>
-        <br></br>
-        JS <DiJavascript/>
-        </div>
+        Hi, I am Uvejs from Peja. I'm learning React.js <br /> I also know HTML
+        & CSS.
+      </p>
 
-    <div className="certificate">
+      <div className="skilldiv">
+        My Skills
+        <br></br>
+        HTML <AiFillHtml5 />
+        <br></br>
+        CSS <FaCss3Alt />
+        <br></br>
+        JS <DiJavascript />
+      </div>
+
+      <div className="certificate">
         <h2 className="certificates">
-        
           My certificates
           <br></br>
           1. Stencyl
           <br></br>
-          2. WEB Design       
+          2. WEB Design
           <br></br>
           3. HTML
           <br></br>
-          4. CSS 
+          4. CSS
           <br></br>
           5. JavaScript
         </h2>
-</div>
-
+      </div>
     </div>
   );
 };
