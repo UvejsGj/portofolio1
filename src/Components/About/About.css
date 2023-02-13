@@ -46,3 +46,14 @@ h1 {
 .link {
     text-decoration: none;
 }
+
+.featuredprojects {
+    position: relative;
+    top: 500px;
+    right: 600px;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+}
