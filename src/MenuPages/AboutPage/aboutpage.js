@@ -12,7 +12,6 @@ const AboutPage = () => {
     <div>
       <Footer />
       <Navbar />
-     
 
       <div className="skilldiv">
         My Skills:
@@ -25,19 +24,21 @@ const AboutPage = () => {
       </div>
 
       <div className="certificate">
-        <h2 className="certificates">
-          My certificates
+        <h1 className="certificates">
+          My certificates:
+          </h1>
+          <p className="certificates">
           <br></br>
-          1. Stencyl
+          1. Completed Course of Web and Mobile Game Development with STENCYL.
           <br></br>
-          2. WEB Design
+          2. Completed Course of JavaScript Fundamentals - Beginner
           <br></br>
-          3. HTML
+          3. Completed Course of Web Development - Beginner
           <br></br>
-          4. CSS
+          4. Completed Course of Web Development
           <br></br>
-          5. JavaScript
-        </h2>
+          5. Completed Course of React JS Basics
+          </p>
       </div>
     </div>
   );

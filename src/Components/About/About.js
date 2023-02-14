@@ -20,7 +20,7 @@ const About = () => {
         </Link>
         <div className="featuredprojects">
         <h1> Featured Projects </h1>
-        <p> Ask the X Project - Where Students </p>
+        <p> Ask the X Project - Where Students ask the community for help about school subjects or homework. </p>
         </div>
       </div>
     </div>

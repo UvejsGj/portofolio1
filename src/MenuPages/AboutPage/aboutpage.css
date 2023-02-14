@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap');
+
 .aboutmep{
     position: absolute;
     right: 15%;
@@ -35,6 +37,7 @@
     position: relative;
     top: 50px;
     font-size: 20px;
+    font-family: 'Overpass', sans-serif;
     right: 500px;
 }
 
