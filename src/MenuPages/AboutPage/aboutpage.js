@@ -26,7 +26,7 @@ const AboutPage = () => {
 
       <div className="certificate">
         <h1 className="certificates">
-          My certificates:
+          My Certificates:
           </h1>
           <ol className="certificatesp">
           <li>Completed Course of Web and Mobile Game Development with STENCYL</li>
