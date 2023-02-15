@@ -16,11 +16,17 @@
 }
 
 .skilldiv {
+    flex-direction: column;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    left: 500px;
+    left: 450px;
     top: 230px;
+    width: 600px;
+    height: 200px;
 }
 
 .skillicons {
@@ -28,19 +34,73 @@
     font-size: 30px;
     position: relative;
     top: 250px;
-    font-size: 20px;
+    font-size: 100px;
 }
 
 .certificates {
     color: white;
     font-size: 30px;
     position: relative;
-    top: 50px;
-    font-size: 20px;
+    top: 20px;
+    font-size: 40px;
     font-family: 'Overpass', sans-serif;
-    right: 500px;
+    right: -200px;
+    display: flex;
+    justify-content: left;
 }
 
 h2 {
     font-size: 40px;
+}
+
+.certificatesp {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    color: white;
+    width: auto;
+    flex-direction: column;
+    align-items: left;
+    font-size: 20px;
+}
+
+.certificate {
+    position: relative;
+    left: 400px;
+    top: 300px;
+}
+
+.htmlicon {
+   margin: 20px;
+   font-size: 60px;
+}
+
+.cssicon {
+    margin: 20px;
+    font-size: 60px;
+}
+
+.javaicon {
+    margin: 20px;
+    font-size: 60px;
+}
+
+.giticon {
+    margin: 20px;
+    font-size: 60px;
+}
+
+
+.htmlicon:hover {
+    transform: scale(1.5);
+}
+
+.cssicon:hover {
+    transform: scale(1.5);
+}
+.javaicon:hover {
+    transform: scale(1.5);
+}
+.giticon:hover {
+    transform: scale(1.5);
 }
