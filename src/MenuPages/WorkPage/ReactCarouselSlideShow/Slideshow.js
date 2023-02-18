@@ -1,7 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "./Slideshow.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import FaceProject from "../../../Assets/images/faceproject.png";
+import FaceProject from "../../../Assets/images/faceproject.PNG";
 import BBCProject from "../../../Assets/images/bccproject.png";
 import AskTheX from "../../../Assets/images/askthex.png";
 
