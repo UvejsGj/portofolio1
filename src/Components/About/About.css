@@ -12,11 +12,12 @@ h1 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-.aboutmeimg{
-    width: 36%;
+
+#aboutmeimg{
+    width: 40%;
     height: 60%; 
     position: relative;
-    left: -250px;
+    left: 250px;
     top: 100px;
     border-right: 5px solid white;
     margin-right: 220px;
@@ -57,3 +58,32 @@ h1 {
 p {
     font-size: 25px;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .responsive{
+        width: 370px;
+        height: 500px;
+    
+    }
+
+    .aboutmep {
+        width: 200px;
+        height: 200px;
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+    
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

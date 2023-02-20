@@ -36,6 +36,14 @@ const AboutPage = () => {
           <li>Completed Course of React JS Basics </li>
           </ol>
       </div>
+      <div className="academicbackground" >
+        <ol>
+          <h1> Academic Background </h1>  
+          <li> Primary School: SHFMU Dardania </li>
+          <li> High School: Teknike Informatik Biznesit </li>
+          <li> Course: Center For Education X </li>
+          </ol> 
+      </div>
     </div>
   );
 };

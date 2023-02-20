@@ -2,14 +2,13 @@ import "./About.css";
 import aboutmepic from "../../Assets/images/aboutme1.png";
 import Button from "../../Components/Button/Button"
 import { Link } from "react-router-dom";
-import AsktheX from "../../Assets/images/askthex.png"
 
 
 const About = () => {
   return (
-    <div>
+    <div className="responsive">
       <div className="aboutmediv">
-        <img className="aboutmeimg" src={aboutmepic} />
+        <img id="aboutmeimg" src={aboutmepic} />
       </div>
       <div className="aboutmepb">
         <p className="aboutmep">

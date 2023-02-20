@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 450px;
+    left: 650px;
     top: 230px;
     width: 600px;
     height: 200px;
@@ -66,7 +66,7 @@ h2 {
 
 .certificate {
     position: relative;
-    left: 400px;
+    left: 600px;
     top: 300px;
 }
 
@@ -103,4 +103,18 @@ h2 {
 }
 .giticon:hover {
     transform: scale(1.5);
+}
+
+.academicbackground {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 520px;
+    width: 800px;
+    height: 200px;
 }
