@@ -11,7 +11,7 @@ const About = () => {
         <img id="aboutmeimg" src={aboutmepic} />
       </div>
       <div className="aboutmepb">
-        <p className="aboutmep">
+        <p id="aboutmepid" className="aboutmep">
           Hi, Welcome to my Portofolio.
         </p>
         <Link className="link" to="/about" onClick={()=>window.scroll(0, 0)} >

@@ -62,17 +62,35 @@ p {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .responsive{
-        width: 370px;
-        height: 500px;
     
+    #aboutmeimg {
+        position: relative;
+        top: 20px;
+        left: 75px;
+        border-right: none;
+        border-bottom: 5px white solid;
+        width: 200px;
     }
 
-    .aboutmep {
-        width: 200px;
-        height: 200px;
-        font-size: 10px;
+    .link {
+        position: relative;
+        left: 190px;
     }
+
+    #aboutmepid {
+        position: relative;
+        top: 120px;
+        left: 250px;
+        font-size: 20px;
+    }
+
+    .featuredprojects {
+        position: relative;
+        top: 500px;
+        left: 250px;
+        width: 300px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
