@@ -10,9 +10,10 @@ import { BsGithub } from "react-icons/bs"
 
 const AboutPage = () => {
   return (
+    
     <div>
-      <Footer />
-      <Navbar />
+      
+    <Navbar />
 
       <div className="skilldiv">
       <h1>My Skills:</h1>
@@ -44,6 +45,7 @@ const AboutPage = () => {
           <li> Course: Center For Education X </li>
           </ol> 
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap');
 
-.aboutmep{
-    position: absolute;
-    right: 15%;
-    top: 30%;
-    font-size: 30px;
-    color: white;
-}
+
 
 .skills {
     color: white;
@@ -111,7 +105,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
     position: relative;
     top: 400px;
     left: 520px;
